@@ -1,0 +1,26 @@
+#!/bin/bash
+
+DIRECTORY="$(dirname "$(dirname "$( cd "$(dirname "$0")" >/dev/null 2>&1 ; pwd -P )")")"
+
+function error {
+  echo -e "\\e[91m$1\\e[39m"
+  exit 1
+}
+
+git clone https://github.com/robloxboy24/Bongo-Cat-For-Raspberry-Pi || error 'Failed to clone github repository!'
+
+# Get dependencies
+"${DIRECTORY}/pkg-install" "libsfml-dev libsdl2-dev libxdo-dev" "$(dirname "$0")" || exit 1
+
+echo "[Desktop Entry]
+Name=Bongo Cam
+Comment=This is a silly cat that moves his mouse around and presses buttons!
+Exec=/home/pi/Bongo-Cat-For-Raspberry-Pi/bongocat-osu-1.5.1/bongo
+Path=/home/pi/Bongo-Cat-For-Raspberry-Pi/bongocat-osu-1.5.1
+Icon=/home/pi/pi-apps/apps/Bongo Cam/icon-64.png
+Terminal=false
+StartupNotify=true
+Type=Application
+Categories=Utility;" > ~/.local/share/applications/bongocam.desktop
+
+chmod +x /home/pi/Bongo-Cat-For-Raspberry-Pi/bongocat-osu-1.5.1/bongo
