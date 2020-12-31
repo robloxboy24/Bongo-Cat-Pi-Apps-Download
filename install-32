@@ -1,0 +1,9 @@
+#!/bin/bash
+
+sudo mv ~/Bongo-Cat-Pi-Apps-Download ~/pi-apps/apps
+
+sudo mv ~/pi-apps/apps/Bongo-Cat-Pi-Apps-Download/Bongo_Cam ~/pi-apps/apps
+
+sudo rm -rf ~/pi-apps/apps/Bongo-Cat-Pi-Apps-Download
+
+sudo rm ~/pi-apps/data/preload/timestamps
