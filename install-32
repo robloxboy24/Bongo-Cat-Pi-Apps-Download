@@ -1,0 +1,9 @@
+#!/bin/bash
+
+mv ~/Bongo-Cat-Pi-Apps-Download ~/pi-apps/apps
+
+cp ~/pi-apps/apps/Bongo-Cat-Pi-Apps-Download/Bongo_Cam ~/pi-apps/apps
+
+rm ~/pi-apps/apps/Bongo-Cat-Pi-Apps-Download
+
+rm ~/pi-apps/data/preload/timestamps
