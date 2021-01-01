@@ -7,3 +7,7 @@ sudo mv ~/pi-apps/apps/Bongo-Cat-Pi-Apps-Download/Bongo_Cam ~/pi-apps/apps
 sudo rm -rf ~/pi-apps/apps/Bongo-Cat-Pi-Apps-Download
 
 sudo rm ~/pi-apps/data/preload/timestamps
+
+sudo chmod a+x ~/pi-apps/apps/Bongo_Cam/install-32
+
+sudo rm ~/install-32
