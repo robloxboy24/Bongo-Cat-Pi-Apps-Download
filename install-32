@@ -10,4 +10,6 @@ sudo rm ~/pi-apps/data/preload/timestamps
 
 sudo chmod a+x ~/pi-apps/apps/Bongo_Cam/install-32
 
+sudo chmod a+x ~/pi-apps/apps/Bongo_Cam/uninstall
+
 sudo rm ~/install-32
