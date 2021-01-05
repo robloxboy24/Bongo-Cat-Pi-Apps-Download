@@ -9,4 +9,3 @@ First run ```git clone https://github.com/robloxboy24/Bongo-Cat-Pi-Apps-Download
 Open pi-apps. (You will find it in the assesories menu) Then click on Bongo Cam, then click on install.
 #4. Done! Good job! :D
 #5. If you have any questions or errors please message me on discord! I'm robloxboy24 (scripter)#0822 Thanks! Bye! :D
-m'
