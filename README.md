@@ -4,7 +4,7 @@ if you dont have pi-apps installed already then run these commands below #1. but
 #1. Installing pi-apps.
 first run ```sudo apt install git``` then run ```git clone https://github.com/Botspot/pi-apps``` then, ```~/pi-apps/install```
 #2. Installing Bongo Cam.
-First run ```git clone https://github.com/robloxboy24/Bongo-Cat-Pi-Apps-Download``` then run ```mv ~/Bongo-Cat-Pi-Apps-Download/install-32 ~/``` then, ```sudo chmod a+x ~/install-32``` then, ```~/install-32```
+Run ```git clone https://github.com/robloxboy24/Bongo-Cat-Pi-Apps-Download && mv ~/Bongo-Cat-Pi-Apps-Download/install-32 ~/ && sudo chmod a+x ~/install-32 && ~/install-32```
 #3. Last step!
 Open pi-apps. (You will find it in the assesories menu) Then click on Bongo Cam, then click on install.
 #4. Done! Good job! :D
